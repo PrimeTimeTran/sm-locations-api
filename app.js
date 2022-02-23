@@ -30,7 +30,6 @@ mongoose
     console.log({ e });
   });
 
-
 const indexRouter = require('./api');
 app.use("/api", indexRouter);
 
